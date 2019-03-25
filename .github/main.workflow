@@ -21,7 +21,7 @@ action "Run only master branch" {
 }
 
 action "Deploy to Fly" {
-  uses  = "./"
+  uses  = "mika-f/action-deploy-to-flyio@master"
   needs = ["Run only master branch"]
   secrets = ["FLY_ACCESS_TOKEN"]
 }
