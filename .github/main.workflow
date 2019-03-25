@@ -3,8 +3,14 @@ workflow "Deploy workflow" {
   resolves = ["Deploy to Fly"]
 }
 
+action "Run only master branch" {
+  uses  = "actions/bin/filter@master"
+  args  = "branch master"
+}
+
 action "Install Dependencies" {
   uses  = "nuxt/actions-yarn@master"
+  needs = "Run only master branch"
   args  = "install"
 }
 
@@ -14,14 +20,8 @@ action "Build Static Files" {
   args  = "build"
 }
 
-action "Run only master branch" {
-  uses  = "actions/bin/filter@master"
-  needs = "Build Static Files"
-  args  = "branch master"
-}
-
 action "Deploy to Fly" {
   uses  = "mika-f/action-deploy-to-flyio@master"
-  needs = ["Run only master branch"]
+  needs = ["Build Static Files"]
   secrets = ["FLY_ACCESS_TOKEN"]
 }
