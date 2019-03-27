@@ -3,5 +3,5 @@
     "config:base"
   ],
   "timezone": "Asia/Tokyo",
-  "schedule": "after 9:00am and before 6:00am"
+  "schedule": "after 9:30am and before 5:30pm"
 }
