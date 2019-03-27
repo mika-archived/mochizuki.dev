@@ -14,7 +14,7 @@
   },
   "settings": {
     "react": {
-      "version": "16.8.3"
+      "version": "16.8.5"
     },
     // should use plugin:import/typescript in vnext (> v2.16.0)
     "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
