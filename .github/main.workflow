@@ -8,10 +8,16 @@ action "Install Node dependencies" {
   args = "install"
 }
 
-action "Run tests " {
+action "Run tests" {
   uses = "nuxt/actions-yarn@master"
   needs = ["Install Node dependencies"]
   args = "test --ci --coverage"
+}
+
+action "Run linters" {
+  uses = "nuxt/actions-yarn@master"
+  needs = ["Install Node dependencies"]
+  args = "lint"
 }
 
 action "Build app" {
@@ -22,7 +28,7 @@ action "Build app" {
 
 action "Run only master branch" {
   uses = "actions/bin/filter@master"
-  needs = ["Run tests ", "Build app"]
+  needs = ["Run tests", "Run linters", "Build app"]
   args = "branch master"
 }
 
