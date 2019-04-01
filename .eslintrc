@@ -10,7 +10,10 @@
     "project": "./tsconfig.json"
   },
   "globals": {
-    "document": true
+    "document": true,
+    "fetch": true,
+    "navigator": true,
+    "window": true
   },
   "settings": {
     "react": {
