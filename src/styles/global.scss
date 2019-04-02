@@ -11,6 +11,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  color: #333;
+}
+
+p {
+  color: #333;
+}
+
 #root {
   height: 100%;
   background-image: url(https://ik.imagekit.io/mikazuki/background_SkWaV--F4.jpg);
