@@ -42,8 +42,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "stylelint src/**/*.{scss,css} && eslint src/**/*.{js,ts,tsx}",
-    "lint:fix": "stylelint src/**/*.{scss,css} --fix && eslint src/**/*.{js,ts,tsx} --fix",
+    "lint": "stylelint src/**/*.{scss,css,tsx} && eslint src/**/*.{js,ts,tsx}",
+    "lint:fix": "stylelint src/**/*.{scss,css,tsx} --fix && eslint src/**/*.{js,ts,tsx} --fix",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
