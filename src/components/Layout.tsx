@@ -8,8 +8,4 @@ const Container = styled.div`
   background-color: rgba(0, 0, 0, 0.25);
 `;
 
-const Content = styled.div`
-  flex: 1;
-`;
-
-export { Container, Content };
+export default Container;

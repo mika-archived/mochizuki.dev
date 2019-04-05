@@ -1,11 +1,12 @@
 import React from "react";
 
+import Content from "./components/Content";
 import Footer from "./components/Footer";
-import { Container, Content } from "./components/Layout";
+import Container from "./components/Layout";
 
 const App: React.FC = () => (
   <Container>
-    <Content>Hello, World</Content>
+    <Content />
     <Footer />
   </Container>
 );
