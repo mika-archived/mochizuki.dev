@@ -45,7 +45,7 @@ commands:
           keys:
             - v1-dist-{{ .Branch }}-{{ .Revision }}
             - v1-dist-{{ .Branch }}-
-            - v1-dist
+            - v1-dist-
 
   save_artifacts:
     steps:
