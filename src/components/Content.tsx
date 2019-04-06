@@ -39,11 +39,11 @@ const Content: React.FC = () => (
         <br />
         日常のちょっとした不便などを解決したりするのが好きです。
         <br />
-        最近は VTuber 含む xR 系, Unityに興味があります。
+        最近は VTuber 含む xR 系, Unity に興味があります。
       </p>
       <div>
         <LinkIcon href="https://github.com/mika-f" icon="fab fa-github" />
-        <LinkIcon href="https://twitter.com/MikazukiFuyuni" icon="fab fa-twitter" />
+        <LinkIcon href="https://twitter.com/MikazukiFuyuno" icon="fab fa-twitter" />
         <LinkIcon href="https://mikazuki.hatenablog.jp" icon="fal fa-book" />
         <LinkIcon href="https://mochizuki.moe" icon="fal fa-browser" />
       </div>
