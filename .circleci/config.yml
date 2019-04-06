@@ -95,7 +95,11 @@ jobs:
   deploy:
     executor: node
     steps:
-      - run: echo 1
+      - restore_repo
+      - restore_deps
+      - restore_artifacts
+      - run: yarn global add netlify-cli
+      - netlify deploy --prod --dir=./dist --site=$NETLIFY_SITE_ID
 
 workflows:
   version: 2.1
