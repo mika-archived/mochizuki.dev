@@ -99,7 +99,7 @@ jobs:
       - restore_deps
       - restore_artifacts
       - run: yarn global add netlify-cli
-      - netlify deploy --prod --dir=./dist --site=$NETLIFY_SITE_ID
+      - run: netlify deploy --prod --dir=./dist --site=$NETLIFY_SITE_ID
 
 workflows:
   version: 2.1
