@@ -99,7 +99,7 @@ jobs:
       - restore_deps
       - restore_artifacts
       - run: yarn global add netlify-cli
-      - run: export PATH=$(yarn global bin):$PATH
+      - run: echo 'export PATH=$(yarn global bin):$PATH' >> $BASH_ENV
       - run: netlify deploy --prod --dir=./dist --site=$NETLIFY_SITE_ID
 
 workflows:
