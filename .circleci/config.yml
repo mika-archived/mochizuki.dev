@@ -1,0 +1,128 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2.1
+executors:
+  node:
+    docker:
+      - image: circleci/node:11.13.0
+    working_directory: ~/repo
+
+commands:
+  restore_repo:
+    steps:
+      - restore_cache:
+          keys:
+            - v1-repo-{{ .Branch }}-{{ .Revision }}
+            - v1-repo-{{ .Branch }}-
+            - v1-repo-
+
+  save_repo:
+    steps:
+      - save_cache:
+          paths:
+            - .
+          key: v1-repo-{{ .Branch }}-{{ .Revision }}
+
+  restore_deps:
+    steps:
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "yarn.lock" }}
+            - v1-dependencies-
+
+  save_deps:
+    steps:
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
+
+  restore_artifacts:
+    steps:
+      - restore_cache:
+          keys:
+            - v1-dist-{{ .Branch }}-{{ .Revision }}
+            - v1-dist-{{ .Branch }}-
+            - v1-dist-
+
+  save_artifacts:
+    steps:
+      - save_cache:
+          paths:
+            - dist
+          key: v1-dist-{{ .Branch }}-{{ .Revision }}
+
+jobs:
+  checkout_code:
+    executor: node
+    steps:
+      - restore_repo
+      - checkout
+      - save_repo
+
+  install_deps:
+    executor: node
+    steps:
+      - restore_repo
+      - restore_deps
+      - run: yarn install
+      - save_deps
+
+  test:
+    executor: node
+    steps:
+      - restore_repo
+      - restore_deps
+      - run: yarn run test
+
+  lint:
+    executor: node
+    steps:
+      - restore_repo
+      - restore_deps
+      - run: yarn run lint
+
+  build:
+    executor: node
+    steps:
+      - restore_repo
+      - restore_deps
+      - run: yarn run build
+      - save_artifacts
+
+  deploy:
+    executor: node
+    steps:
+      - restore_repo
+      - restore_deps
+      - restore_artifacts
+      - run: yarn global add netlify-cli
+      - run: netlify deploy --prod --dir=./dist --site=$NETLIFY_SITE_ID
+
+workflows:
+  version: 2.1
+  build_accept_deploy:
+    jobs:
+      - checkout_code
+      - install_deps:
+          requires:
+            - checkout_code
+      - test:
+          requires:
+            - install_deps
+      - lint:
+          requires:
+            - install_deps
+      - build:
+          requires:
+            - install_deps
+      - deploy:
+          requires:
+            - test
+            - lint
+            - build
+          filters:
+            branches:
+              only: master
