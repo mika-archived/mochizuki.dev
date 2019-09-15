@@ -8,8 +8,6 @@ const LoadingRabbit = styled(FontAwesome)`
   font-size: 24px;
 `;
 
-const Container = styled.div``;
-
 const AnnaKeyframes = keyframes`
   0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
     transform: translateY(20px);
@@ -60,23 +58,21 @@ const LoadingAnimation: React.FC<Props> = ({ className }) => {
   const animations = "Now Loading...".split("");
   const delays = 1.5 / animations.filter(w => w !== "").length;
   return (
-    <Container className={className}>
-      <div>
-        <AnnaAnimation>
-          <LoadingRabbit prefix="solid" icon="rabbit" fixed />
-        </AnnaAnimation>
-        {animations.map((str, idx) => {
-          const delay = 5 - (idx + 1) * delays;
-          return str === "" ? (
-            " "
-          ) : (
-            <JumpingAnimation key={`${str}-${delay}`} delay={delay}>
-              {str}
-            </JumpingAnimation>
-          );
-        })}
-      </div>
-    </Container>
+    <div className={className}>
+      <AnnaAnimation>
+        <LoadingRabbit prefix="solid" icon="rabbit" fixed />
+      </AnnaAnimation>
+      {animations.map((str, idx) => {
+        const delay = 5 - (idx + 1) * delays;
+        return str === "" ? (
+          " "
+        ) : (
+          <JumpingAnimation key={`${str}-${delay}`} delay={delay}>
+            {str}
+          </JumpingAnimation>
+        );
+      })}
+    </div>
   );
 };
 
