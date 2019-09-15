@@ -6,6 +6,7 @@ import FontAwesome from "../../atoms/FontAwesome";
 
 const LoadingRabbit = styled(FontAwesome)`
   font-size: 24px;
+  color: #f294ad;
 `;
 
 const AnnaKeyframes = keyframes`
@@ -48,6 +49,7 @@ const JumpingKeyframes = keyframes`
 const JumpingAnimation = styled.div<JumpingProps>`
   display: inline-block;
   margin: 1px;
+  color: #433673;
   transform: translateY(17.5px);
   animation: ${JumpingKeyframes} 5s -${props => props.delay}s infinite;
 `;

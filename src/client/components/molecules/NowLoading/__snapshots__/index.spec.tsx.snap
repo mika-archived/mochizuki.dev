@@ -4,6 +4,7 @@ exports[`does not have changes from snapshot 1`] = `
 <DocumentFragment>
   .c1 {
   font-size: 24px;
+  color: #f294ad;
 }
 
 .c0 {
@@ -17,6 +18,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c2 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -27,6 +29,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c3 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -37,6 +40,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c4 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -47,6 +51,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c5 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -57,6 +62,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c6 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -67,6 +73,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c7 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -77,6 +84,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c8 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -87,6 +95,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c9 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -97,6 +106,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c10 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -107,6 +117,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c11 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -117,6 +128,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c12 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -127,6 +139,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c13 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -137,6 +150,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c14 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
@@ -147,6 +161,7 @@ exports[`does not have changes from snapshot 1`] = `
 .c15 {
   display: inline-block;
   margin: 1px;
+  color: #433673;
   -webkit-transform: translateY(17.5px);
   -ms-transform: translateY(17.5px);
   transform: translateY(17.5px);
