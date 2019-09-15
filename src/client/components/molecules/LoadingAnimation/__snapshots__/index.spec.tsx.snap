@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not have changes from snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  font-size: 24px;
+}
+
+.c0 {
+  display: inline-block;
+  margin-right: 10px;
+  color: #433673;
+  -webkit-animation: kKAuAg 5s ease-in-out infinite;
+  animation: kKAuAg 5s ease-in-out infinite;
+}
+
+.c2 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -4.892857142857143s infinite;
+  animation: cmahRn 5s -4.892857142857143s infinite;
+}
+
+.c3 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -4.785714285714286s infinite;
+  animation: cmahRn 5s -4.785714285714286s infinite;
+}
+
+.c4 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -4.678571428571429s infinite;
+  animation: cmahRn 5s -4.678571428571429s infinite;
+}
+
+.c5 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -4.571428571428571s infinite;
+  animation: cmahRn 5s -4.571428571428571s infinite;
+}
+
+.c6 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -4.464285714285714s infinite;
+  animation: cmahRn 5s -4.464285714285714s infinite;
+}
+
+.c7 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -4.357142857142858s infinite;
+  animation: cmahRn 5s -4.357142857142858s infinite;
+}
+
+.c8 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -4.25s infinite;
+  animation: cmahRn 5s -4.25s infinite;
+}
+
+.c9 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -4.142857142857143s infinite;
+  animation: cmahRn 5s -4.142857142857143s infinite;
+}
+
+.c10 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -4.035714285714286s infinite;
+  animation: cmahRn 5s -4.035714285714286s infinite;
+}
+
+.c11 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -3.928571428571429s infinite;
+  animation: cmahRn 5s -3.928571428571429s infinite;
+}
+
+.c12 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -3.821428571428571s infinite;
+  animation: cmahRn 5s -3.821428571428571s infinite;
+}
+
+.c13 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -3.7142857142857144s infinite;
+  animation: cmahRn 5s -3.7142857142857144s infinite;
+}
+
+.c14 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -3.607142857142857s infinite;
+  animation: cmahRn 5s -3.607142857142857s infinite;
+}
+
+.c15 {
+  display: inline-block;
+  margin: 1px;
+  -webkit-transform: translateY(17.5px);
+  -ms-transform: translateY(17.5px);
+  transform: translateY(17.5px);
+  -webkit-animation: cmahRn 5s -3.5s infinite;
+  animation: cmahRn 5s -3.5s infinite;
+}
+
+<div
+    class=""
+  >
+    <div>
+      <div
+        class="c0"
+      >
+        <i
+          class="fas fa-rabbit fa-fw c1"
+        />
+      </div>
+      <div
+        class="c2"
+      >
+        N
+      </div>
+      <div
+        class="c3"
+      >
+        o
+      </div>
+      <div
+        class="c4"
+      >
+        w
+      </div>
+      <div
+        class="c5"
+      >
+         
+      </div>
+      <div
+        class="c6"
+      >
+        L
+      </div>
+      <div
+        class="c7"
+      >
+        o
+      </div>
+      <div
+        class="c8"
+      >
+        a
+      </div>
+      <div
+        class="c9"
+      >
+        d
+      </div>
+      <div
+        class="c10"
+      >
+        i
+      </div>
+      <div
+        class="c11"
+      >
+        n
+      </div>
+      <div
+        class="c12"
+      >
+        g
+      </div>
+      <div
+        class="c13"
+      >
+        .
+      </div>
+      <div
+        class="c14"
+      >
+        .
+      </div>
+      <div
+        class="c15"
+      >
+        .
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
