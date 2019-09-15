@@ -8,6 +8,12 @@
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@storybook/addon-actions": "^5.2.0",
+    "@storybook/addon-info": "^5.2.0",
+    "@storybook/addon-links": "^5.2.0",
+    "@storybook/addons": "^5.2.0",
+    "@storybook/react": "^5.2.0",
     "@testing-library/dom": "^6.2.0",
     "@testing-library/jest-dom": "^4.1.0",
     "@testing-library/react": "^9.1.4",
@@ -16,9 +22,11 @@
     "@types/node": "^12.7.5",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
+    "@types/storybook__react": "^4.0.2",
     "@types/styled-components": "^4.1.19",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.4.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.3.0",
@@ -32,6 +40,7 @@
     "jest-styled-components": "^6.3.3",
     "parcel-bundler": "^1.12.3",
     "prettier": "^1.18.2",
+    "react-docgen-typescript-loader": "^3.2.0",
     "react-test-renderer": "^16.9.0",
     "stylelint": "^10.1.0",
     "stylelint-config-prettier": "^5.2.0",
@@ -40,6 +49,7 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.8.0",
     "ts-jest": "^24.1.0",
+    "ts-loader": "^6.1.0",
     "typescript": "^3.6.3"
   },
   "scripts": {
@@ -47,6 +57,8 @@
     "build": "parcel build public/index.html",
     "test": "jest",
     "lint": "stylelint src/**/*.{scss,css,tsx} && eslint src/**/*.{js,ts,tsx}",
-    "lint:fix": "stylelint src/**/*.{scss,css,tsx} --fix && eslint src/**/*.{js,ts,tsx} --fix"
+    "lint:fix": "stylelint src/**/*.{scss,css,tsx} --fix && eslint src/**/*.{js,ts,tsx} --fix",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
