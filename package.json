@@ -7,6 +7,15 @@
     "react-dom": "16.9.0",
     "styled-components": "4.3.2"
   },
+  "scripts": {
+    "start": "parcel serve public/index.html",
+    "build": "parcel build public/index.html",
+    "test": "jest",
+    "lint": "stylelint src/**/*.{scss,css,tsx} && eslint src/**/*.{js,ts,tsx}",
+    "lint:fix": "stylelint src/**/*.{scss,css,tsx} --fix && eslint src/**/*.{js,ts,tsx} --fix",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "devDependencies": {
     "@babel/core": "7.6.0",
     "@storybook/addon-actions": "5.2.1",
@@ -51,14 +60,5 @@
     "ts-jest": "24.1.0",
     "ts-loader": "6.1.2",
     "typescript": "3.6.3"
-  },
-  "scripts": {
-    "start": "parcel serve public/index.html",
-    "build": "parcel build public/index.html",
-    "test": "jest",
-    "lint": "stylelint src/**/*.{scss,css,tsx} && eslint src/**/*.{js,ts,tsx}",
-    "lint:fix": "stylelint src/**/*.{scss,css,tsx} --fix && eslint src/**/*.{js,ts,tsx} --fix",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
   }
 }
