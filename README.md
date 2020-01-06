@@ -1,7 +1,6 @@
-# mochizuki.dev
+# me.mochizuki.dev
 
-[mochizuki.dev](https://mochizuki.dev) git repository.
-
+[me.mochizuki.dev](https://me.mochizuki.dev) git repository.
 
 ## Development
 

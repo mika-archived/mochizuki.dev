@@ -1,6 +1,6 @@
 {
-  "name": "mochizuki.dev",
-  "short_name": "mochizuki.dev",
+  "name": "me.mochizuki.dev",
+  "short_name": "me.mochizuki.dev",
   "theme_color": "#603cba",
   "background_color": "#ffffff",
   "display": "standalone",
