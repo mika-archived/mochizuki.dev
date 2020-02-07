@@ -20,14 +20,9 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="../src/main.scss" />
     <!-- prettier-ignore -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.2/css/solid.css" integrity="sha384-FCdq+BRoY+lV7Zy7HKKQ4zoywYLRyasGk6IrmrXfmYs0xIgL0QrPeEPTu3T4Uqcc" crossorigin="anonymous">
-    <!-- prettier-ignore -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.2/css/regular.css" integrity="sha384-hKM7KqUOh6F2PI59uEhofbDs/5qHHdJEULlmNWJEQcu3D/5/vl5zpwBrveC4GAbI" crossorigin="anonymous">
-    <!-- prettier-ignore -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.2/css/brands.css" integrity="sha384-hIpb1kefRKjC/r6WxN0S6Nai7+AuherqCoHKD0HNdXkbzJkZcS4o62bJ7ODiBWAu" crossorigin="anonymous">
-    <!-- prettier-ignore -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.2/css/fontawesome.css" integrity="sha384-1sdMwbsd8X7Y+nVcEr/4D35smQEaEd6Qz+R00Y+NPUkG8MyRa97RrX5I4nqDt6X7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6eedc8e111.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -38,8 +33,21 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="app"></div>
-
-    <script src="../src/client/main.tsx"></script>
+    <div id="app">
+      <div class="loading">
+        <div class="loading-box">
+          <div class="frames">
+            <div class="animate">
+              <i class="fal fa-fw fa-2x fa-rabbit"></i>
+            </div>
+            <div class="animate">
+              <i class="fal fa-fw fa-2x fa-rabbit-fast"></i>
+            </div>
+          </div>
+          <p>Now Loading...</p>
+        </div>
+      </div>
+    </div>
+    <script async src="../src/main.tsx"></script>
   </body>
 </html>

@@ -1,0 +1,64 @@
+#app {
+  height: 100vh;
+  background-color: #e1e1e1;
+
+  .loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .loading-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #e59bb6;
+
+      .frames {
+        position: relative;
+        width: 40px;
+        height: 32px;
+
+        .animate {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+
+          &:nth-child(1) {
+            animation: running-rabbit 1s 0s forwards linear infinite;
+          }
+
+          &:nth-child(2) {
+            z-index: 0;
+            visibility: hidden;
+            opacity: 0;
+            animation: running-rabbit 1s 0.5s forwards linear infinite;
+          }
+
+          @keyframes running-rabbit {
+            0% {
+              z-index: 0;
+              visibility: hidden;
+              opacity: 0;
+            }
+
+            50% {
+              z-index: 1;
+              visibility: visible;
+              opacity: 1;
+            }
+
+            100% {
+              z-index: 0;
+              visibility: hidden;
+              opacity: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
