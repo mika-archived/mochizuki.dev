@@ -1,6 +1,6 @@
 import React from "react";
 
-type Prefix = "brands" | "regular" | "solid";
+type Prefix = "brands" | "regular" | "solid" | "light";
 
 type Props = {
   className?: string;

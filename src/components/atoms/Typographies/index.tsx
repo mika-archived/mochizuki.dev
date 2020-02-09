@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
-const BaseTypography = styled.p`
+const BaseParagraph = styled.p`
+  margin: 0;
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
 `;
 
-const Small = styled(BaseTypography)`
+const Small = styled(BaseParagraph)`
   font-size: 14px;
 `;
 
-const Normal = styled(BaseTypography)`
+const Normal = styled(BaseParagraph)`
   font-size: 16px;
 `;
 
-const Large = styled(BaseTypography)`
+const Large = styled(BaseParagraph)`
   font-size: 18px;
 `;
 
