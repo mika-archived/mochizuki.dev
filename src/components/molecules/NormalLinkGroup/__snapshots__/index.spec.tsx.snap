@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not have changes from snapshot 1`] = `
+<DocumentFragment>
+  .c4 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 14px;
+  color: #888;
+}
+
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+}
+
+.c3 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.c2 {
+  font-size: 36px;
+  line-height: 1.2;
+  color: #333;
+}
+
+<a
+    class="c0"
+    href="https://twitter.com/MikazukiFuyuno"
+    rel="noreferrer noopener"
+  >
+    <div
+      class="c1"
+    >
+      <i
+        class="fal fa-envelope fa-fw c2"
+      />
+      <div>
+        <p
+          class="sc-AxjAm sc-AxirZ c3"
+        >
+          Twitter
+        </p>
+        <p
+          class="sc-AxjAm sc-AxirZ c4"
+        >
+          MikazukiFuyuno
+        </p>
+      </div>
+    </div>
+  </a>
+</DocumentFragment>
+`;

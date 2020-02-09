@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not have changes from snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  border-radius: 9999px;
+}
+
+<img
+    class="c0"
+    src="https://assets.mochizuki.moe/anna.png"
+  />
+</DocumentFragment>
+`;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import FontAwesome from "../../atoms/FontAwesome";
 import Link from "../../atoms/Link";
-import { Small } from "../../atoms/Typographies";
+import { Small } from "../../atoms/Typography";
 
 type Props = {
   account: string;

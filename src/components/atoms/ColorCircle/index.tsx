@@ -11,8 +11,8 @@ const Circle = styled.div`
   border-radius: 9999px;
 `;
 
-const LanguageBadge: React.FC<Props> = ({ className, color }) => {
+const ColorCircle: React.FC<Props> = ({ className, color }) => {
   return <Circle className={className} color={color} />;
 };
 
-export default LanguageBadge;
+export default ColorCircle;

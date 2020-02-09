@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not have changes from snapshot with external link 1`] = `
+<DocumentFragment>
+  <a
+    href="https://example.com/another"
+    rel="noreferrer noopener"
+  >
+    Another Link
+  </a>
+</DocumentFragment>
+`;
+
+exports[`does not have changes from snapshot with internal link 1`] = `
+<DocumentFragment>
+  <a
+    href="/another"
+  >
+    Another Link
+  </a>
+</DocumentFragment>
+`;
