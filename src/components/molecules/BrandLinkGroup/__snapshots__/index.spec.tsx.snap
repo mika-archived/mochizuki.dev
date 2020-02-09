@@ -2,11 +2,13 @@
 
 exports[`does not have changes from snapshot 1`] = `
 <DocumentFragment>
-  .c4 {
+  .c5 {
   margin: 0;
   font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
   font-size: 14px;
+  overflow: hidden;
   color: #888;
+  text-overflow: ellipsis;
 }
 
 .c0 {
@@ -24,17 +26,24 @@ exports[`does not have changes from snapshot 1`] = `
   flex-flow: row nowrap;
 }
 
-.c3 {
+.c4 {
   margin: 0;
   font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
   font-size: 14px;
+  overflow: hidden;
   color: #333;
+  text-overflow: ellipsis;
 }
 
 .c2 {
   font-size: 36px;
   line-height: 1.2;
   color: #333;
+}
+
+.c3 {
+  width: 100%;
+  margin-left: 6px;
 }
 
 <a
@@ -48,14 +57,16 @@ exports[`does not have changes from snapshot 1`] = `
       <i
         class="fab fa-twitter fa-fw c2"
       />
-      <div>
+      <div
+        class="c3"
+      >
         <p
-          class="sc-AxjAm sc-AxirZ c3"
+          class="sc-AxjAm sc-AxirZ c4"
         >
           Twitter
         </p>
         <p
-          class="sc-AxjAm sc-AxirZ c4"
+          class="sc-AxjAm sc-AxirZ c5"
         >
           MikazukiFuyuno
         </p>

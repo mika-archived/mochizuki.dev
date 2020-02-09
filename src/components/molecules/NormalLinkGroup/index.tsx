@@ -13,7 +13,9 @@ type Props = {
 };
 
 const Account = styled(Small)`
+  overflow: hidden;
   color: #888;
+  text-overflow: ellipsis;
 `;
 
 const Anchor = styled(Link)`
@@ -26,7 +28,9 @@ const FlexBox = styled.div`
 `;
 
 const Label = styled(Small)`
+  overflow: hidden;
   color: #333;
+  text-overflow: ellipsis;
 `;
 
 const Icon = styled(FontAwesome)`
@@ -35,15 +39,20 @@ const Icon = styled(FontAwesome)`
   color: #333;
 `;
 
+const Texts = styled.div`
+  width: 100%;
+  margin-left: 6px;
+`;
+
 const NormalLinkGroup: React.FC<Props> = ({ account, label, href, icon }) => {
   return (
     <Anchor href={href}>
       <FlexBox>
         <Icon prefix="light" icon={icon} fixed />
-        <div>
+        <Texts>
           <Label>{label}</Label>
           <Account>{account}</Account>
-        </div>
+        </Texts>
       </FlexBox>
     </Anchor>
   );
