@@ -17,4 +17,4 @@ const Large = styled(BaseParagraph)`
   font-size: 18px;
 `;
 
-export { Small, Normal, Large };
+export { BaseParagraph as Paragraph, Small, Normal, Large };
