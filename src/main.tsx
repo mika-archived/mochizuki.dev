@@ -22,6 +22,11 @@ html, body {
     opacity: 1;
   }
 }
+
+.contrib-legend {
+  /* Workaround for broken layout of github-calendar */
+  padding: 0 14px 9px 0 !important;
+}
 `;
 
 const App: React.FC = () => {
