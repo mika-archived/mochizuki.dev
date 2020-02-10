@@ -16,22 +16,19 @@ const repository: ExtractProps<typeof GitHubRepository> = {
 
 const LimitedBox1 = styled.div`
   width: 290px;
-  height: 140px;
+  height: 135px;
   margin: 10px 0;
 `;
 
 const LimitedBox2 = styled.div`
   width: 290px;
-  height: 120px;
+  height: 115px;
   margin: 10px 0;
 `;
 
 storiesOf("organisms/GitHubRepository", module).add("default", () => (
   <>
     {/* eslint-disable react/jsx-props-no-spreading */}
-    <LimitedBox1>
-      <GitHubRepository {...repository} />
-    </LimitedBox1>
     <LimitedBox1>
       <GitHubRepository {...repository} />
     </LimitedBox1>

@@ -33,6 +33,7 @@ const Description = styled.div<{ lines: number }>`
   flex: 1 1 auto;
   margin: 5px 0;
   overflow: hidden;
+  line-height: 1.3;
   color: #888;
   text-overflow: ellipsis;
 
@@ -51,9 +52,10 @@ const Forks = styled(LabeledIcon)`
   color: #888;
 `;
 
-const Metadata = styled(Small)`
+const Metadata = styled.div`
   display: flex;
   flex-flow: row nowrap;
+  font-size: 14px;
 `;
 
 const Stargazers = styled(LabeledIcon)`
