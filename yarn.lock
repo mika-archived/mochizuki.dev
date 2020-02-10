@@ -2653,7 +2653,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-transition-group@^4.2.3":
+"@types/react-transition-group@4.2.3":
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.2.3.tgz#4924133f7268694058e415bf7aea2d4c21131470"
   integrity sha512-Hk8jiuT7iLOHrcjKP/ZVSyCNXK73wJAUz60xm0mVhiRujrdiI++j4duLiL282VGxwAgxetHQFfqA29LgEeSkFA==
@@ -6754,7 +6754,7 @@ github-calendar-parser@^1.1.3:
   dependencies:
     github-calendar-legend "^1.0.0"
 
-github-calendar@^1.3.4:
+github-calendar@1.3.4:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/github-calendar/-/github-calendar-1.3.4.tgz#ed77997eae468f35ea331077169fd9a35d6a8407"
   integrity sha512-tHmBHVnuOhzKT/e4BohiqxSE6/0OHDAy4VnEfu0PLDpxmhPiSucfyYJ6yLQZy+zruPqFXlnzu45QywJrWXnExg==
@@ -10031,7 +10031,7 @@ param-case@^2.1.1:
   dependencies:
     no-case "^2.2.0"
 
-parcel@^2.0.0-alpha.3.2:
+parcel@2.0.0-nightly.86:
   version "2.0.0-nightly.86"
   resolved "https://registry.yarnpkg.com/parcel/-/parcel-2.0.0-nightly.86.tgz#c528fcb92ca3b940271803133b17837c2fb7ac6f"
   integrity sha512-rvYlxHRfgtxyMM+D3H+hHieJbQiN1Yqx6sRqQ0DrMYTuubH+ggVBIMu3LJ2pBbMtp9JcwDjdBowpEjRKrckkZA==
@@ -11451,7 +11451,7 @@ react-textarea-autosize@^7.1.0:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
 
-react-transition-group@^4.3.0:
+react-transition-group@4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.3.0.tgz#fea832e386cf8796c58b61874a3319704f5ce683"
   integrity sha512-1qRV1ZuVSdxPlPf4O8t7inxUGpdyO5zG9IoNfJxSO0ImU2A1YWkEQvFPuIPZmMLkg5hYs7vv5mMOyfgSkvAwvw==
@@ -12091,7 +12091,7 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass@^1.25.0:
+sass@1.25.0:
   version "1.25.0"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.25.0.tgz#f8bd7dfbb39d6b0305e27704a8ebe637820693f3"
   integrity sha512-uQMjye0Y70SEDGO56n0j91tauqS9E1BmpKHtiYNQScXDHeaE9uHwNEqQNFf4Bes/3DHMNinB6u79JsG10XWNyw==
@@ -12971,7 +12971,7 @@ stylelint-processor-styled-components@1.9.0:
     micromatch "^4.0.2"
     postcss "^7.0.0"
 
-stylelint-scss@^3.14.2:
+stylelint-scss@3.14.2:
   version "3.14.2"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.14.2.tgz#e449a47e0ac410e6909f1a71b49550202c978bf9"
   integrity sha512-59/BkIEWyFoORiejDIQB2P2kmg0KcqMn7wtj1y5sRvS4N+Qh+Ng3hbKelOzgS+OM2Ezbai0uEev8xckXxkh9TQ==
