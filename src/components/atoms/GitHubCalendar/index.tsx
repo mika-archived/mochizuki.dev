@@ -12,10 +12,26 @@ type Props = {
 };
 
 const Container = styled.div`
-  width: 754px;
+  width: 100%;
   min-height: 243px;
   border: 1px solid #ddd;
   border-radius: 4px;
+`;
+
+const CalendarBox = styled.div`
+  &:empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 243px;
+
+    &::before {
+      display: block;
+      color: #888;
+      text-align: center;
+      content: "Loading...";
+    }
+  }
 `;
 
 const GitHubCalendar: React.FC<Props> = ({ className, login }) => {
@@ -27,7 +43,7 @@ const GitHubCalendar: React.FC<Props> = ({ className, login }) => {
 
   return (
     <Container>
-      <div className={className} ref={container} />
+      <CalendarBox className={className} ref={container} />
     </Container>
   );
 };
