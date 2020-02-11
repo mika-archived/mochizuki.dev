@@ -13,6 +13,7 @@ type Props = {
 };
 
 const Account = styled(Small)`
+  flex: 1;
   overflow: hidden;
   color: #888;
   text-overflow: ellipsis;
@@ -28,6 +29,7 @@ const FlexBox = styled.div`
 `;
 
 const Label = styled(Small)`
+  flex: 1;
   overflow: hidden;
   color: #333;
   text-overflow: ellipsis;
@@ -40,6 +42,8 @@ const Icon = styled(FontAwesome)`
 `;
 
 const Texts = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
   min-width: 0;
   margin-left: 6px;
 `;
