@@ -6,12 +6,6 @@ exports[`does not have changes from snapshot 1`] = `
   display: inline-block;
 }
 
-.c0 {
-  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
-  font-size: 21px;
-  font-weight: normal;
-}
-
 .c8 {
   margin: 0;
   font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
@@ -52,7 +46,7 @@ exports[`does not have changes from snapshot 1`] = `
 }
 
 .c6 {
-  width: 100%;
+  min-width: 0;
   margin-left: 6px;
 }
 
@@ -96,12 +90,19 @@ exports[`does not have changes from snapshot 1`] = `
 }
 
 .c12 {
-  width: 100%;
+  min-width: 0;
   margin-left: 6px;
 }
 
 .c2 {
   margin-bottom: 16px;
+}
+
+.c0 {
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  color: #333;
 }
 
 @media screen and (max-width:576px) {
@@ -118,7 +119,7 @@ exports[`does not have changes from snapshot 1`] = `
 
 <section>
     <h2
-      class="c0"
+      class="sc-AxirZ c0"
     >
       Links
     </h2>

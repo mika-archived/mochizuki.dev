@@ -18,10 +18,14 @@ const LinkGroup = styled.div`
   margin-bottom: 16px;
 `;
 
+const Heading = styled(Heading2)`
+  color: #333;
+`;
+
 const LinkSection: React.FC<Props> = ({ className, links }) => {
   return (
     <section className={className}>
-      <Heading2>Links</Heading2>
+      <Heading>Links</Heading>
       <Grid rows={6}>
         {links.map(w => (
           <Row key={`${w.icon}-${w.label}`} sm={3} md={2}>
