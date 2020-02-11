@@ -42,7 +42,7 @@ exports[`does not have changes from snapshot 1`] = `
 }
 
 .c3 {
-  width: 100%;
+  min-width: 0;
   margin-left: 6px;
 }
 
@@ -50,6 +50,7 @@ exports[`does not have changes from snapshot 1`] = `
     class="c0"
     href="https://twitter.com/MikazukiFuyuno"
     rel="noreferrer noopener"
+    target="_blank"
   >
     <div
       class="c1"

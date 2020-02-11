@@ -40,7 +40,7 @@ const Icon = styled(FontAwesome)`
 `;
 
 const Texts = styled.div`
-  width: 100%;
+  min-width: 0;
   margin-left: 6px;
 `;
 
