@@ -16,6 +16,8 @@ storiesOf("atoms/GridLayout", module).add("default", () => (
       <Grid rows={12}>
         <Row sm={4} md={3}>
           Hello 1
+          <br />
+          Hello 2
         </Row>
         <Row sm={4} md={3}>
           Hello 2
