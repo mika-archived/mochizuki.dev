@@ -10,6 +10,7 @@ import NormalLinkGroup from "../../molecules/NormalLinkGroup";
 import { ExtractProps } from "../../../type-helper";
 
 type Props = {
+  className?: string;
   links: (ExtractProps<typeof BrandLinkGroup> & { prefix: ExtractProps<typeof FontAwesome>["prefix"] })[];
 };
 
@@ -17,9 +18,9 @@ const LinkGroup = styled.div`
   margin-bottom: 16px;
 `;
 
-const LinkSection: React.FC<Props> = ({ links }) => {
+const LinkSection: React.FC<Props> = ({ className, links }) => {
   return (
-    <section>
+    <section className={className}>
       <Heading2>Links</Heading2>
       <Grid rows={6}>
         {links.map(w => (
