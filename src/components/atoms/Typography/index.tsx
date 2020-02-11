@@ -5,6 +5,10 @@ const BaseParagraph = styled.p`
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
 `;
 
+const XSmall = styled(BaseParagraph)`
+  font-size: 12px;
+`;
+
 const Small = styled(BaseParagraph)`
   font-size: 14px;
 `;
@@ -21,4 +25,4 @@ const XLarge = styled(BaseParagraph)`
   font-size: 21px;
 `;
 
-export { BaseParagraph as Paragraph, Small, Normal, Large, XLarge };
+export { BaseParagraph as Paragraph, XSmall, Small, Normal, Large, XLarge };
