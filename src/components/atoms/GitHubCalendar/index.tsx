@@ -13,7 +13,7 @@ type Props = {
 
 const Container = styled.div`
   width: 100%;
-  min-height: 243px;
+  min-height: 100px;
   border: 1px solid #ddd;
   border-radius: 4px;
 `;
@@ -23,7 +23,7 @@ const CalendarBox = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 243px;
+    height: 100px;
 
     &::before {
       display: block;
