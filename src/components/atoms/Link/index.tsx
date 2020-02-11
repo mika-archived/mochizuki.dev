@@ -16,7 +16,7 @@ const Link: React.FC<Props> = ({ children, className, href }) => {
   }
 
   return (
-    <a className={className} href={href} rel="noreferrer noopener">
+    <a className={className} href={href} target="_blank" rel="noreferrer noopener">
       {children}
     </a>
   );

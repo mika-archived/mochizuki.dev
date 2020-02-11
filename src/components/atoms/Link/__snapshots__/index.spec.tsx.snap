@@ -5,6 +5,7 @@ exports[`does not have changes from snapshot with external link 1`] = `
   <a
     href="https://example.com/another"
     rel="noreferrer noopener"
+    target="_blank"
   >
     Another Link
   </a>
