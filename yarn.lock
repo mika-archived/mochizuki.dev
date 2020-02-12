@@ -13735,6 +13735,13 @@ use-callback-ref@^1.2.1:
   resolved "https://registry.yarnpkg.com/use-callback-ref/-/use-callback-ref-1.2.1.tgz#898759ccb9e14be6c7a860abafa3ffbd826c89bb"
   integrity sha512-C3nvxh0ZpaOxs9RCnWwAJ+7bJPwQI8LHF71LzbQ3BvzH5XkdtlkMadqElGevg5bYBDFip4sAnD4m06zAKebg1w==
 
+use-http@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/use-http/-/use-http-0.2.7.tgz#d76a699f78721024771baba55e412b880a64b0e1"
+  integrity sha512-3jlfDerBVJMSXdbv2Aj4eihqoBlECcPo6rLJN0hWRZHxBGcmxPxBpqp7RZV8lpidTXQ1s+oiKzCnXV+m8kuoDg==
+  dependencies:
+    use-ssr "^1.0.22"
+
 use-sidecar@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/use-sidecar/-/use-sidecar-1.0.2.tgz#e72f582a75842f7de4ef8becd6235a4720ad8af6"
@@ -13742,6 +13749,11 @@ use-sidecar@^1.0.1:
   dependencies:
     detect-node "^2.0.4"
     tslib "^1.9.3"
+
+use-ssr@^1.0.22:
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/use-ssr/-/use-ssr-1.0.22.tgz#a43c2587b1907fabda61c6542b80542c619228fe"
+  integrity sha512-0kA0qfI4uw7PeRsz7X0XOdl2CdbgMBSFhj3n5JzMu8ZNlcZ2NrarhGjdmoxW1Q5d3WtNKbCNIjns/CKhpL7z8g==
 
 use@^3.1.0:
   version "3.1.1"
