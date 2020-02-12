@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { Small } from "../../atoms/Typography";
 import LabeledIcon from "../../molecules/LabeledIcon";
 import LanguageBadge from "../../molecules/LanguageBadge";
+import LinkLabeledIcon from "../../molecules/LinkLabeledIcon";
 
 type Props = {
   nameWithOwner: string;
@@ -23,7 +24,7 @@ const Border = styled.div`
   border-radius: 4px;
 `;
 
-const NameWithOwner = styled(LabeledIcon)`
+const NameWithOwner = styled(LinkLabeledIcon)`
   color: #333;
 `;
 
@@ -76,7 +77,7 @@ const GitHubRepository: React.FC<Props> = ({ description, forks, nameWithOwner, 
 
   return (
     <Border>
-      <NameWithOwner icon="book" prefix="light" label={nameWithOwner} />
+      <NameWithOwner href={`https://github.com/${nameWithOwner}`} icon="book" prefix="light" label={nameWithOwner} />
       <Description ref={box} lines={lines}>
         <Small>{description}</Small>
       </Description>
