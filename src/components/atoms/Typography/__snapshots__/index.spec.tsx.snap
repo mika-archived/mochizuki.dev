@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not have changes from snapshot in Large 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 18px;
+}
+
+<p
+    class="sc-AxjAm c0"
+  >
+    Large
+  </p>
+</DocumentFragment>
+`;
+
+exports[`does not have changes from snapshot in Normal 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 16px;
+}
+
+<p
+    class="sc-AxjAm c0"
+  >
+    Normal
+  </p>
+</DocumentFragment>
+`;
+
+exports[`does not have changes from snapshot in Small 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 14px;
+}
+
+<p
+    class="sc-AxjAm c0"
+  >
+    Small
+  </p>
+</DocumentFragment>
+`;

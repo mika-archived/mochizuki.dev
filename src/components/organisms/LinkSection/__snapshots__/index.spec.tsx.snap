@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not have changes from snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  display: inline-block;
+}
+
+.c8 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 14px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  color: #888;
+  text-overflow: ellipsis;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+}
+
+.c7 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 14px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  color: #333;
+  text-overflow: ellipsis;
+}
+
+.c5 {
+  font-size: 36px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  min-width: 0;
+  margin-left: 6px;
+}
+
+.c14 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 14px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  color: #888;
+  text-overflow: ellipsis;
+}
+
+.c9 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+}
+
+.c13 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 14px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  color: #333;
+  text-overflow: ellipsis;
+}
+
+.c11 {
+  font-size: 36px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  min-width: 0;
+  margin-left: 6px;
+}
+
+.c2 {
+  margin-bottom: 16px;
+}
+
+.c0 {
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  color: #333;
+}
+
+@media screen and (max-width:576px) {
+  .c1 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:576px) {
+  .c1 {
+    width: 33.33333333333333%;
+  }
+}
+
+<section>
+    <h2
+      class="sc-AxirZ c0"
+    >
+      Links
+    </h2>
+    <div
+      class="c1"
+      rows="6"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <div
+            class="c4"
+          >
+            <i
+              class="fab fa-twitter fa-fw c5"
+            />
+            <div
+              class="c6"
+            >
+              <p
+                class="sc-AxiKw sc-AxhUy c7"
+              >
+                Twitter 1
+              </p>
+              <p
+                class="sc-AxiKw sc-AxhUy c8"
+              >
+                MikazukiFuyuno
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div
+      class="c1"
+      rows="6"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c9"
+          href="/"
+        >
+          <div
+            class="c10"
+          >
+            <i
+              class="fal fa-envelope fa-fw c11"
+            />
+            <div
+              class="c12"
+            >
+              <p
+                class="sc-AxiKw sc-AxhUy c13"
+              >
+                Email 1
+              </p>
+              <p
+                class="sc-AxiKw sc-AxhUy c14"
+              >
+                me@mochizuki.moe
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div
+      class="c1"
+      rows="6"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <div
+            class="c4"
+          >
+            <i
+              class="fab fa-twitter fa-fw c5"
+            />
+            <div
+              class="c6"
+            >
+              <p
+                class="sc-AxiKw sc-AxhUy c7"
+              >
+                Twitter 2
+              </p>
+              <p
+                class="sc-AxiKw sc-AxhUy c8"
+              >
+                MikazukiFuyuno
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div
+      class="c1"
+      rows="6"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c9"
+          href="/"
+        >
+          <div
+            class="c10"
+          >
+            <i
+              class="fal fa-envelope fa-fw c11"
+            />
+            <div
+              class="c12"
+            >
+              <p
+                class="sc-AxiKw sc-AxhUy c13"
+              >
+                Email 2
+              </p>
+              <p
+                class="sc-AxiKw sc-AxhUy c14"
+              >
+                me@mochizuki.moe
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div
+      class="c1"
+      rows="6"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <div
+            class="c4"
+          >
+            <i
+              class="fab fa-twitter fa-fw c5"
+            />
+            <div
+              class="c6"
+            >
+              <p
+                class="sc-AxiKw sc-AxhUy c7"
+              >
+                Twitter 3
+              </p>
+              <p
+                class="sc-AxiKw sc-AxhUy c8"
+              >
+                MikazukiFuyuno
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div
+      class="c1"
+      rows="6"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c9"
+          href="/"
+        >
+          <div
+            class="c10"
+          >
+            <i
+              class="fal fa-envelope fa-fw c11"
+            />
+            <div
+              class="c12"
+            >
+              <p
+                class="sc-AxiKw sc-AxhUy c13"
+              >
+                Email 3
+              </p>
+              <p
+                class="sc-AxiKw sc-AxhUy c14"
+              >
+                me@mochizuki.moe
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

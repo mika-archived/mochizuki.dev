@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not have changes from snapshot 1`] = `
+<DocumentFragment>
+  .c5 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 14px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  color: #888;
+  text-overflow: ellipsis;
+}
+
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+}
+
+.c4 {
+  margin: 0;
+  font-family: "游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 14px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  color: #333;
+  text-overflow: ellipsis;
+}
+
+.c2 {
+  font-size: 36px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  min-width: 0;
+  margin-left: 6px;
+}
+
+<a
+    class="c0"
+    href="https://twitter.com/MikazukiFuyuno"
+    rel="noreferrer noopener"
+    target="_blank"
+  >
+    <div
+      class="c1"
+    >
+      <i
+        class="fab fa-twitter fa-fw c2"
+      />
+      <div
+        class="c3"
+      >
+        <p
+          class="sc-AxjAm sc-AxiKw c4"
+        >
+          Twitter
+        </p>
+        <p
+          class="sc-AxjAm sc-AxiKw c5"
+        >
+          MikazukiFuyuno
+        </p>
+      </div>
+    </div>
+  </a>
+</DocumentFragment>
+`;
