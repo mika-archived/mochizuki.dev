@@ -16,21 +16,21 @@ const Heading = styled(Heading2)`
   color: #333;
 `;
 
-const RowContainer = styled(Row)`
-  margin: 10px 0;
-`;
-
 const Container = styled.div`
   height: 100%;
   margin-bottom: 16px;
+`;
+
+const RowContainer = styled(Row)`
+  margin: 10px 0;
 
   @media screen and (min-width: 576px) {
-    &:nth-child(odd) {
-      padding-right: 15px;
+    &:nth-child(odd) > ${Container} {
+      margin-right: 7.5px;
     }
 
-    &:nth-child(even) {
-      padding-left: 15px;
+    &:nth-child(even) > ${Container} {
+      margin-left: 7.5px;
     }
   }
 `;
