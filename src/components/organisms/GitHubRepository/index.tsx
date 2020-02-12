@@ -49,7 +49,7 @@ const Description = styled.div<{ lines: number }>`
 `;
 
 const Forks = styled(LabeledIcon)`
-  margin-left: 10px;
+  margin: 1px 0 0 10px;
   color: #888;
 `;
 
@@ -60,7 +60,7 @@ const Metadata = styled.div`
 `;
 
 const Stargazers = styled(LabeledIcon)`
-  margin-left: 10px;
+  margin: 1px 0 0 10px;
   color: #888;
 `;
 
