@@ -51,7 +51,7 @@ commands:
     steps:
       - save_cache:
           paths:
-            - build
+            - dist
           key: v1-build-{{ .Branch }}-{{ .Revision }}
 
 jobs:
@@ -100,7 +100,7 @@ jobs:
       - restore_artifacts
       - run: yarn global add netlify-cli
       - run: echo 'export PATH=$(yarn global bin):$PATH' >> $BASH_ENV
-      - run: netlify deploy --prod --dir=./build --site=$NETLIFY_SITE_ID
+      - run: netlify deploy --prod --dir=./dist --site=$NETLIFY_SITE_ID
 
 workflows:
   version: 2.1
