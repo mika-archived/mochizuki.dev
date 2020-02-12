@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { createGlobalStyle } from "styled-components";
 
+import RootPage from "./components/pages/Root";
+
 const GlobalStyle = createGlobalStyle`
 html, body {
   min-height: 100vh;
@@ -32,7 +34,7 @@ html, body {
 const App: React.FC = () => {
   return (
     <div className="rendering">
-      <div>Hello, World</div>
+      <RootPage />
     </div>
   );
 };
