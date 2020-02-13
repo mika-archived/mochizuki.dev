@@ -21,7 +21,7 @@ jobs:
       - name: deploy to Netlify
         if: success() && github.ref == 'refs/heads/master'
         run: |
-          yarn global install netlify-cli
+          yarn global add netlify-cli
           netlify deploy --prod --dir=./dist --site=$NETLIFY_SITE_ID
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
