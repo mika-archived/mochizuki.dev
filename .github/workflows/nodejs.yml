@@ -19,7 +19,7 @@ jobs:
         env:
           CI: true
       - name: deploy to Netlify
-        if: success() && github.ref == 'master'
+        if: success() && github.ref == 'refs/heads/master'
         run: |
           yarn global install netlify-cli
           netlify deploy --prod --dir=./dist --site=$NETLIFY_SITE_ID
