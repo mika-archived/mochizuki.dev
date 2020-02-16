@@ -17,6 +17,7 @@
   "globals": {
     "addEventListener": true,
     "document": true,
+    "navigator": true,
     "window": true
   },
   "rules": {
