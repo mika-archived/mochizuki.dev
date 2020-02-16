@@ -21,6 +21,22 @@ const Container = styled.div`
   margin-bottom: 16px;
 `;
 
+const GridContainer = styled(Grid)`
+  &:empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+
+    &::before {
+      display: block;
+      color: #888;
+      text-align: center;
+      content: "Loading...";
+    }
+  }
+`;
+
 const RowContainer = styled(Row)`
   margin: 10px 0;
 
@@ -39,7 +55,7 @@ const ProjectsSection: React.FC<Props> = ({ className, projects }) => {
   return (
     <section className={className}>
       <Heading>Projects</Heading>
-      <Grid rows={2}>
+      <GridContainer rows={2}>
         {projects.map(w => (
           <RowContainer key={w.nameWithOwner} sm={2} md={1}>
             <Container>
@@ -47,7 +63,7 @@ const ProjectsSection: React.FC<Props> = ({ className, projects }) => {
             </Container>
           </RowContainer>
         ))}
-      </Grid>
+      </GridContainer>
     </section>
   );
 };

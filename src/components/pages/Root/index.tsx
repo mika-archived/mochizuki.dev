@@ -8,7 +8,7 @@ import { ExtractProps } from "../../../type-helper";
 // static variables
 const another = "You can see another side (not as an engineer) of me from here.";
 const name = "Fuyuno Mikazuki";
-const description = "Software / Web Engineer writing C#, TypeScript, Rust and Perl in Tokyo";
+const description = "Software / Web Engineer using C#, TypeScript, Rust and Perl in Tokyo";
 const href = "https://mochizuki.moe";
 const icon = "https://assets.mochizuki.moe/anna.png";
 const login = "mika-f";
