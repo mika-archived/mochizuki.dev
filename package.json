@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "parcel serve --cache-dir .cache public/index.html",
-    "build": "parcel build --cache-dir .cache public/index.html",
+    "build": "yarn build:app && yarn build:sw",
+    "build:app": "parcel build --cache-dir .cache public/index.html",
+    "build:sw": "parcel build --cache-dir .cache src/service-worker.ts",
     "test": "jest",
     "lint": "stylelint src/**/*.{scss,css,tsx} && eslint src/**/*.{ts,tsx}",
     "lint:fix": "stylelint src/**/*.{scss,css,tsx} --fix && eslint src/**/*.{ts,tsx} --fix",
