@@ -18,6 +18,7 @@
     "addEventListener": true,
     "document": true,
     "navigator": true,
+    "self": true,
     "window": true
   },
   "rules": {
