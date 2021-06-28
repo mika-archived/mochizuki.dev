@@ -58,7 +58,7 @@
     "react-docgen-typescript-loader": "3.6.0",
     "react-test-renderer": "16.12.0",
     "sass": "1.25.0",
-    "stylelint": "13.1.0",
+    "stylelint": "13.13.1",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-recess-order": "2.0.4",
     "stylelint-config-standard": "20.0.0",
